@@ -5,7 +5,7 @@ weight: 90
 
 The `generator` property from `package.json` file must contain a JSON object that may have the following information:
 
-|Name|Type|Description|
+|Name|Type||
 |---|---|---|
 |`renderer`| String | Its value can be either `react` or `nunjucks` (default).
 |`apiVersion`| String | Determines which **major** version of the [Parser-API](https://github.com/asyncapi/parser-api) the template uses. For example, `v2` for `v2.x.x`. If not specified, the Generator assumes the template is not compatible with the Parser-API so it will use the [Parser-JS v1 API](https://github.com/asyncapi/parser-js/tree/v1.18.1#api-documentation). For templates that need to support AsyncAPI specification v3 make sure to use `v3` [Parser-API](https://github.com/asyncapi/parser-api). If the template uses a version of the Parser-API that is not supported by the Generator, the Generator will throw an error.
