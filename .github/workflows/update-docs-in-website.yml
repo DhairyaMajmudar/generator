@@ -5,7 +5,7 @@ on:
     branches:
       - 'master'
     paths:
-      - 'apps/generator/docs/*.md'
+      - 'docs/*.md'
 
 jobs:
   Make-PR:
